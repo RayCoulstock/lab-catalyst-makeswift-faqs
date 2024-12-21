@@ -4,19 +4,19 @@ import { CSSProperties, forwardRef, ReactNode, Ref, useState } from 'react';
 import { clsx } from 'clsx';
 
 interface Member {
-  name?: string
-  position?: string
-  image?: string
-  content: ReactNode
+  name?: string;
+  position?: string;
+  image?: string;
+  content: ReactNode;
 }
 
 interface Props {
-  className?: string
-  members: Member[]
-  highlightColor?: string
-  thumbnailTextColor?: string
-  thumbnailOrientation?: "vertical" | "horizontal"
-  itemsPerRow?: number
+  className?: string;
+  members: Member[];
+  highlightColor?: string;
+  thumbnailTextColor?: string;
+  thumbnailOrientation?: "vertical" | "horizontal";
+  itemsPerRow?: number;
 }
 
 export const TeamMembers = forwardRef((
@@ -30,7 +30,7 @@ export const TeamMembers = forwardRef((
   }: Props, 
   ref: Ref<HTMLDivElement>
 ) => {
-  const vertical = (thumbnailOrientation === "vertical")
+  const vertical = (thumbnailOrientation === "vertical");
   const fadeInDuration = 500;
   const [activeMember, setActiveMember] = useState(0);
   const [visibleMembers, setVisibleMembers] = useState([0]);
@@ -110,7 +110,7 @@ export const TeamMembers = forwardRef((
           vertical || "relative h-[560px]"
           )}>
           {members.map((member, index) => {
-            if (!visibleMembers.includes(index)) return null
+            if (!visibleMembers.includes(index)) return null;
 
             return (
               <div  

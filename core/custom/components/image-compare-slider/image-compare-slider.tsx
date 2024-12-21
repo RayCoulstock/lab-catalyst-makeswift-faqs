@@ -4,9 +4,9 @@ import { forwardRef, Ref } from 'react';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 interface Props {
-  className?: string
-  image1?: string
-  image2?: string
+  className?: string;
+  image1?: string;
+  image2?: string;
 }
 
 export const ImageCompareSlider = forwardRef((

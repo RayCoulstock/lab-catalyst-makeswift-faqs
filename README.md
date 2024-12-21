@@ -38,7 +38,7 @@ Body:
 Copy the *cat-start* branch.
 
 ```shell
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-start /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-start /path/to/working/directory
 ```
 
 ### Lab 1: Basic Product FAQs
@@ -56,10 +56,10 @@ npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-ma
 Fresh setup:
 
 ```shell
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-faq-enhancements-start /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-faq-enhancements-start /path/to/working/directory
 ```
 
-[Completed Lab 2 state](https://github.com/bigcommerce-edu/lab-catalyst-faqs/tree/lab-faq-enhancements-complete)
+[Completed Lab 2 state](https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-faq-enhancements-complete)
 
 * [Step 2: Add Accordion UI](https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/compare/cat-faq-enhancements-start...cat-faq-enhancements-02?diff=split)
 * [Step 3: Load More button](https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/compare/cat-faq-enhancements-02...cat-faq-enhancements-03?diff=split)
@@ -75,7 +75,7 @@ npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-ma
 Set up with all features complete:
 
 ```shell
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-faq-enhancements-complete /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/cat-faq-enhancements-complete /path/to/working/directory
 ```
 
 ## Makeswift Essentials Labs
@@ -85,7 +85,7 @@ npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-ma
 Copy the _starter_ branch.
 
 ```shell
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-start /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-start /path/to/working/directory
 ```
 
 ### Lab 1: Image Compare Slider Component
@@ -104,7 +104,7 @@ npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-ma
 Fresh setup:
 
 ```
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-team-members-start /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-team-members-start /path/to/working/directory
 ```
 
 [Completed Lab 2 state](https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-team-members-complete)
@@ -123,7 +123,7 @@ npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-ma
 Fresh setup:
 
 ```
-npx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-faqs-start /path/to/working/directory
+pnpx create-next-app@latest -e https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-faqs-start /path/to/working/directory
 ```
 
 [Completed Lab 3 state](https://github.com/bigcommerce-edu/lab-catalyst-makeswift-faqs/tree/mak-faqs-complete)
