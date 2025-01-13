@@ -443,6 +443,9 @@
         "previous": "Previous reviews",
         "next": "Next reviews"
       }
+    },
+    "FAQ": {
+      "heading": "Frequently Asked Questions"
     }
   },
   "WebPages": {
