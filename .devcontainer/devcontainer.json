@@ -1,0 +1,33 @@
+{
+  "name": "lab-catalyst-makeswift-faqs",
+  // Node 20 image with nvm preinstalled
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+
+  // Use the non-root user that comes with this image
+  "remoteUser": "node",
+
+  "features": {
+    // Optional but handy utilities
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  // Runs after the container is created and your repo is mounted
+  "postCreateCommand": "bash -lc 'export NVM_DIR=/usr/local/share/nvm; [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"; nvm install 20; nvm use 20; corepack enable pnpm; pnpm install'",
+
+  // Quality-of-life editor defaults
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+
+  // Forward your dev server if you run one (adjust as needed)
+  "forwardPorts": [3000, 5173]
+}
