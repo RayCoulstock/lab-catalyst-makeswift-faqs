@@ -1,0 +1,30 @@
+{
+  "name": "lab-catalyst-makeswift-faqs",
+  // Node 20 image with nvm preinstalled
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+
+  // Use the non-root user that comes with this image
+  "remoteUser": "node",
+
+  "features": {
+    // Optional but handy utilities
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  // Quality-of-life editor defaults
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+
+  // Forward your dev server if you run one (adjust as needed)
+  "forwardPorts": [3000, 5173]
+}
